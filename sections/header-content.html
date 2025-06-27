@@ -1,0 +1,25 @@
+<!--
+  templateType: section
+  label: Header Content
+  isAvailableForNewContent: true
+  screenshotPath: ../images/section-previews/header-content.png
+  description: "This header includes a fully editable rich text quote, allowing content editors to customize and style the message easily"
+-->
+{% dnd_section
+background_color={{context.background_color or "#000"}}
+%}
+
+{% dnd_column
+    offset=0,
+    width=12
+  %}
+{% dnd_row %}
+{% dnd_module
+        path="/developer-practicum-theme/modules/header-content",
+        offset=0,
+        width=12
+      %}
+{% end_dnd_module %}
+{% end_dnd_row %}
+{% end_dnd_column %}
+{% end_dnd_section %}

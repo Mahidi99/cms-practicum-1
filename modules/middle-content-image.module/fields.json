@@ -1,0 +1,22 @@
+[ {
+  "id" : "631ccae9-3db8-c4e2-0fdb-edfe1688ded8",
+  "name" : "image_field",
+  "label" : "Image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://242798806.fs1.hubspotusercontent-na2.net/hubfs/242798806/badminton-2.jpg",
+    "alt" : "badminton-2",
+    "loading" : "lazy",
+    "width" : 612,
+    "height" : 408,
+    "max_width" : 612,
+    "max_height" : 408
+  }
+} ]

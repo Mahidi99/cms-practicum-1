@@ -1,0 +1,10 @@
+[ {
+  "id" : "08d51245-a40d-259f-43f9-66e965ba80cf",
+  "name" : "richtext_field",
+  "label" : "Rich text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null,
+  "default" : "<h2 style=\"text-align: center; font-size: 36px;\"><strong>Discover the Sport of Badminton</strong></h2>\n<p style=\"text-align: center; font-size: 24px;\">Badminton is a fast-paced and exciting racquet sport enjoyed worldwide. It challenges players with quick footwork, sharp reflexes, and strategic thinking. Whether played indoors or outdoors, it offers both fun and fitness. From local courts to international tournaments, badminton continues to grow in popularity.</p>\n<p style=\"font-size: 24px;\">&nbsp;</p>"
+} ]

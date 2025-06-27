@@ -1,0 +1,100 @@
+[ {
+  "id" : "7deaf1cf-ce93-a78a-c3e3-3fe9aa4feb51",
+  "name" : "group_content",
+  "label" : "Group content",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 12,
+    "sorting_label_field" : null,
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "627d66e3-2d08-8eac-c9bf-d0730f56682f",
+    "name" : "image_field",
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : true,
+    "show_loading" : false,
+    "type" : "image",
+    "display_width" : null,
+    "default" : {
+      "size_type" : "auto_custom_max",
+      "src" : "https://242798806.fs1.hubspotusercontent-na2.net/hubfs/242798806/badminton-3.jpg",
+      "alt" : "badminton-3",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 797,
+      "max_width" : 450,
+      "max_height" : 299
+    }
+  }, {
+    "id" : "fc7962b8-1fa7-c95d-7656-79be8d84ce3c",
+    "name" : "title",
+    "label" : "Title",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "Team Name"
+  }, {
+    "id" : "94569937-7131-3f1b-2f7b-492bd0f19e82",
+    "name" : "description",
+    "label" : "Description",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null,
+    "default" : "About the team"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ {
+    "image_field" : {
+      "size_type" : "auto_custom_max",
+      "src" : "https://242798806.fs1.hubspotusercontent-na2.net/hubfs/242798806/badminton-3.jpg",
+      "alt" : "badminton-3",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 797,
+      "max_width" : 450,
+      "max_height" : 299
+    },
+    "title" : "Team Name",
+    "description" : "About the team"
+  }, {
+    "image_field" : {
+      "size_type" : "auto_custom_max",
+      "src" : "https://242798806.fs1.hubspotusercontent-na2.net/hubfs/242798806/badminton-3.jpg",
+      "alt" : "badminton-3",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 797,
+      "max_width" : 450,
+      "max_height" : 299
+    },
+    "title" : "Team Name",
+    "description" : "About the team"
+  }, {
+    "image_field" : {
+      "size_type" : "auto_custom_max",
+      "src" : "https://242798806.fs1.hubspotusercontent-na2.net/hubfs/242798806/badminton-3.jpg",
+      "alt" : "badminton-3",
+      "loading" : "lazy",
+      "width" : 1200,
+      "height" : 797,
+      "max_width" : 450,
+      "max_height" : 299
+    },
+    "title" : "Team Name",
+    "description" : "About the team"
+  } ]
+} ]

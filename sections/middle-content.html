@@ -1,0 +1,47 @@
+<!--
+  templateType: section
+  label: Middle Content
+  isAvailableForNewContent: true
+  screenshotPath: ../images/section-previews/middle-content.png
+  description: "Middle centered 3 columns on large screens with at least one media query to change layout to 2 columns on screens below 900 pixels"
+-->
+{% dnd_section %}
+  {% dnd_column
+    offset=0,
+    width=6
+  %}
+    {% dnd_row %}
+      {% dnd_module
+        path="../modules/middle-content-image",
+        offset=0,
+        width=12,
+        horizontal_alignment="CENTER",
+        img={
+          "alt" : "placeholder_200x200",
+          "height" : 200,
+          "loading" : "lazy",
+          "size_type" : "auto",
+          "src" : "https://static.hubspot.com/final/img/content/email-template-images/placeholder_200x200.png",
+          "width" : 200
+        }
+      %}
+      {% end_dnd_module %}
+    {% end_dnd_row %}
+  {% end_dnd_column %}
+  {% dnd_column
+    offset=6,
+    width=6
+  %}
+    {% dnd_row %}
+      {% dnd_module
+        path="../modules/middle-content-rich-text",
+        offset=0,
+        width=12
+      %}
+        {% module_attribute "html" %}
+
+        {% end_module_attribute %}
+      {% end_dnd_module %}
+    {% end_dnd_row %}
+  {% end_dnd_column %}
+{% end_dnd_section %}

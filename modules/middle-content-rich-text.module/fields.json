@@ -1,0 +1,10 @@
+[ {
+  "id" : "c2d35c8e-1514-bc9a-9759-8cc05be92b3f",
+  "name" : "richtext_field",
+  "label" : "Rich text",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null,
+  "default" : "<h3>The Art and Agility of Badminton</h3>\n<p>Badminton is a fast-paced racquet sport that demands agility, precision, and strategy. Played both recreationally and competitively across the world, it is known for its quick reflexes, intense rallies, and feather-light shuttlecock. Whether played in singles or doubles format, the objective is simple—outplay your opponent by sending the shuttlecock over the net and into their court in a way that they cannot return it. Beyond its physical benefits, badminton promotes mental alertness and teamwork.</p>"
+} ]

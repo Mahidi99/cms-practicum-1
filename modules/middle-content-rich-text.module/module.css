@@ -1,0 +1,23 @@
+.richtext-wrapper {
+  background-color: #f1f1f1;
+  padding: 30px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin: 0 auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.richtext-wrapper h3 {
+  color: #0d3b66;
+  font-family: 'Lato', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.richtext-wrapper p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'Lato', sans-serif;
+}
